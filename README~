@@ -1,0 +1,20 @@
+----------------------------------------------------------------------------
+Name:  Enock Langat
+Alpha: 183438
+
+Hours: 0
+----------------------------------------------------------------------------
+
+Fill out the RADME below with any relevant information about your programs. 
+
+Above, please indicate how many hours (outside of lab) you spent
+working on this lab. This is to assist in tracking and assesment.
+
+----------------------------------------------------------------------------
+
+Task 1: timer
+
+To calculate execution time I used the fork-exec-wait cycle but I got called the gettimeofday twice. Once when child is executing and once when the parent had finished executing. I then found the difference between the two using the provided function.
+
+Task 2: mini-sh
+
